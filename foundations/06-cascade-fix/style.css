@@ -40,3 +40,33 @@ div.text {
   font-size: 22px;
   font-weight: 100;
 }
+
+#confirm-button {
+  background: green;
+  color: white;
+}
+
+.text .child {
+  font-weight: 800;
+}
+
+/* rule 1 */
+#subsection {
+  background: yellow;
+  color: blue;
+}
+
+/* rule 2 */
+.main #subsection {
+  
+  color: red;
+  background: green;
+
+  background-color: purple;
+}
+
+* {
+  color: burlywood;
+  margin: 20px;
+  outline: 2px solid red;
+}
